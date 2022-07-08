@@ -1,0 +1,26 @@
+/*========== common styles starts here ==========*/
+/*
+font{
+    font-family: 'Handlee', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #1f2937;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*========== common styles ends here ==========*/
+/*# sourceMappingURL=style.css.map */

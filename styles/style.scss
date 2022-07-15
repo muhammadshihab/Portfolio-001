@@ -11,12 +11,21 @@ font{
 }
 */
 
+//variables 
+$body_background: #191A19;
+$text_color: #fff;
+$primary_color: #4E9F3D;
+$nav_link: #92A9BD;
+
+
+
 html {
     scroll-behavior: smooth;
 }
 
-.body{
-    background-color: #1f2937;
+.body{ 
+    color: $text_color;
+    background-color: $body_background;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -24,3 +33,31 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Oswald', sans-serif;
 }
 /*========== common styles ends here ==========*/
+
+/*========== header section starts here ==========*/
+header{
+    background-color: #1f2937; 
+
+    .navbar-brand{
+        color: $primary_color;
+    }
+    .navbar-brand:hover{
+        color: $primary_color;
+    }
+
+    .nav-link{
+        color: $nav_link; 
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .nav-link:hover{
+        color: $primary_color;
+    }
+
+    .active{
+        color: $primary_color;
+    }
+} 
+/*========== header section ends here ==========*/
+ 
+ 

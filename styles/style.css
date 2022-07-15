@@ -14,7 +14,8 @@ html {
 }
 
 .body {
-  background-color: #1f2937;
+  color: #fff;
+  background-color: #191A19;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -23,4 +24,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*========== common styles ends here ==========*/
+/*========== header section starts here ==========*/
+header {
+  background-color: #1f2937;
+}
+
+header .navbar-brand {
+  color: #4E9F3D;
+}
+
+header .navbar-brand:hover {
+  color: #4E9F3D;
+}
+
+header .nav-link {
+  color: #92A9BD;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header .nav-link:hover {
+  color: #4E9F3D;
+}
+
+header .active {
+  color: #4E9F3D;
+}
+
+/*========== header section ends here ==========*/
 /*# sourceMappingURL=style.css.map */

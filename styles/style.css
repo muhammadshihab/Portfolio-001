@@ -30,7 +30,8 @@ header {
 }
 
 header .navbar-brand {
-  color: #4E9F3D;
+  width: 3.2rem;
+  border-radius: 50%;
 }
 
 header .navbar-brand:hover {

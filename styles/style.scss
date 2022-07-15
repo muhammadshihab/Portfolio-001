@@ -38,8 +38,9 @@ h1, h2, h3, h4, h5, h6{
 header{
     background-color: #1f2937; 
 
-    .navbar-brand{
-        color: $primary_color;
+    .navbar-brand{ 
+        width: 3.2rem;
+        border-radius: 50%;
     }
     .navbar-brand:hover{
         color: $primary_color;
